@@ -16,8 +16,9 @@ C. Amazon S3
 D. AWS Glue
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** EC2 (Elastic Compute Cloud) cung cấp máy chủ ảo có thể tùy biến cấu hình, hệ điều hành và cách triển khai.
 </details>
 
@@ -32,8 +33,9 @@ C. Amazon Lightsail
 D. AWS Batch
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** Lambda là mô hình serverless, AWS quản lý máy chủ, scaling và hệ điều hành, bạn chỉ triển khai function.
 </details>
 
@@ -48,8 +50,9 @@ C. Savings Plans
 D. Dedicated Hosts
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** On-Demand cho phép trả theo giây với tính linh hoạt cao, không cần cam kết dài hạn.
 </details>
 
@@ -64,8 +67,9 @@ C. On-Demand
 D. Savings Plans
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** Spot Instances rẻ nhất nhưng có thể bị thu hồi, AWS cung cấp cảnh báo 2 phút trước khi kết thúc.
 </details>
 
@@ -80,8 +84,9 @@ C. Hệ thống caching phân tán
 D. Persistent block storage
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** Fargate cho phép chạy container với ECS/EKS mà không phải quản lý EC2 instances.
 </details>
 
@@ -96,8 +101,9 @@ C. 15 phút
 D. 30 phút
 
 <details>
-<summary><strong>Answer: C</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** C
 **Giải thích:** Lambda có timeout tối đa 15 phút cho mỗi lần chạy.
 </details>
 
@@ -112,8 +118,9 @@ C. Quản lý secrets cho ứng dụng
 D. Dịch vụ streaming dữ liệu real-time
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** Elastic Beanstalk là PaaS giúp triển khai, scale, theo dõi ứng dụng mà không cần quản trị chi tiết hạ tầng.
 </details>
 
@@ -128,8 +135,9 @@ C. Mã hóa lưu lượng mạng
 D. Tạo VPC mới
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** AMI chứa hệ điều hành, cấu hình và phần mềm cần thiết để khởi động EC2 instance.
 </details>
 
@@ -144,8 +152,9 @@ C. AWS Batch
 D. Amazon Lightsail
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** Amazon EKS (Elastic Kubernetes Service) là dịch vụ Kubernetes managed trên AWS.
 </details>
 
@@ -160,8 +169,9 @@ C. Sao lưu dữ liệu lên S3
 D. Nâng cấp phiên bản Lambda tự động
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** Auto Scaling theo dõi các chỉ số (như CPU) để scale in/out EC2 instances đảm bảo hiệu năng và chi phí.
 </details>
 
@@ -176,8 +186,9 @@ C. Phải trả phí riêng như EBS
 D. Dùng được cho mọi loại instance
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** Instance Store là lưu trữ tạm, dữ liệu sẽ mất khi dừng/terminate instance.
 </details>
 
@@ -192,8 +203,9 @@ C. Sao lưu dữ liệu EC2
 D. Tạo snapshot tự động
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** ELB phân phối traffic để nâng cao fault tolerance và availability.
 </details>
 
@@ -208,8 +220,9 @@ C. Event source mapping
 D. SnapStart
 
 <details>
-<summary><strong>Answer: C</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** C
 **Giải thích:** Event source mapping cho phép Lambda nhận sự kiện từ SQS, Kinesis, DynamoDB Streams một cách tự động.
 </details>
 
@@ -224,8 +237,9 @@ C. AWS Fargate
 D. Amazon SQS
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** EC2 cung cấp toàn quyền kiểm soát hệ điều hành, phiên lâu dài, thích hợp workload stateful.
 </details>
 
@@ -240,8 +254,9 @@ C. Bị giới hạn vùng sử dụng
 D. Không chuyển nhượng được
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** RI yêu cầu cam kết 1 hoặc 3 năm, đổi lại giảm giá đáng kể so với On-Demand.
 </details>
 
@@ -257,8 +272,9 @@ D. Swift
 E. Ruby
 
 <details>
-<summary><strong>Answer: A, E</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A, E
 **Giải thích:** Beanstalk hỗ trợ Node.js, Ruby, Python, Java, .NET, Go, PHP. COBOL và Swift không nằm trong danh sách mặc định.
 </details>
 
@@ -273,8 +289,9 @@ C. Ứng dụng máy học real-time
 D. Workload HPC
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** Lightsail cung cấp gói đơn giản, giá cố định, thích hợp cho website nhỏ và ứng dụng đơn giản.
 </details>
 
@@ -289,8 +306,9 @@ C. Quản lý luồng dữ liệu thời gian thực
 D. Cung cấp môi trường no-code
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** AWS Batch lên lịch và quản lý batch jobs sử dụng EC2 hoặc Fargate.
 </details>
 
@@ -305,8 +323,9 @@ C. AWS Systems Manager Parameter Store
 D. AWS CloudFormation
 
 <details>
-<summary><strong>Answer: D</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** D
 **Giải thích:** Beanstalk sử dụng CloudFormation để triển khai và quản lý tài nguyên môi trường.
 </details>
 
@@ -321,8 +340,9 @@ C. P4 instances
 D. M5 instances
 
 <details>
-<summary><strong>Answer: C</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** C
 **Giải thích:** P-series là GPU instances tối ưu cho machine learning và HPC.
 </details>
 
@@ -337,8 +357,9 @@ C. AWS Lambda
 D. AWS Batch
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** Cloud9 là IDE dựa trên cloud, chạy trên EC2 và có terminal, editor tích hợp.
 </details>
 
@@ -353,8 +374,9 @@ C. Mã hóa lưu lượng giữa instances
 D. Tạo DNS riêng cho S3
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** Elastic IP là địa chỉ IPv4 tĩnh, có thể remap giữa instances để tăng HA.
 </details>
 
@@ -369,8 +391,9 @@ C. Cung cấp firewall on-premises
 D. Quản lý CI/CD pipeline
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** Outposts đưa hạ tầng AWS tới trung tâm dữ liệu của khách hàng để chạy dịch vụ AWS tại chỗ.
 </details>
 
@@ -385,8 +408,9 @@ C. Amazon EFS
 D. AWS Step Functions
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** ECS hỗ trợ Docker CLI, API để quản lý container trên AWS.
 </details>
 
@@ -401,8 +425,9 @@ C. Chi phí cao hơn
 D. Chỉ dùng được cho một loại instance
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** Compute Savings Plans tiết kiệm chi phí khi cam kết sử dụng (USD/giờ) và linh hoạt giữa các dịch vụ compute.
 </details>
 
@@ -417,8 +442,9 @@ C. Analytics/Streaming
 D. AI/ML
 
 <details>
-<summary><strong>Answer: C</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** C
 **Giải thích:** Amazon OpenSearch Service là dịch vụ tìm kiếm và phân tích, không thuộc compute.
 </details>
 
@@ -433,8 +459,9 @@ C. AWS Batch
 D. AWS Glue
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** Amazon EKS vận hành cụm Kubernetes được quản lý, hỗ trợ các API chuẩn Kubernetes.
 </details>
 
@@ -449,8 +476,9 @@ C. Sao lưu EBS
 D. Tạo snapshot RDS
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** Lifecycle hooks cho phép chạy script hoặc thông báo trước khi instance chuyển trạng thái InService hoặc Terminating.
 </details>
 
@@ -465,8 +493,9 @@ C. Quản lý user đăng nhập
 D. Tạo backup tự động
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** Instance profile chứa IAM role, cung cấp credentials tạm thời cho ứng dụng trên EC2 truy cập AWS APIs.
 </details>
 
@@ -481,8 +510,9 @@ C. Khi workload stateless
 D. Khi cần serverless
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** Dedicated Host cung cấp phần cứng dành riêng đáp ứng yêu cầu về license hoặc tuân thủ.
 </details>
 
@@ -497,8 +527,9 @@ C. Route 53 health checks
 D. Elastic Fabric Adapter
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** Blue/Green deployment tạo hai môi trường song song, chuyển traffic khi môi trường mới sẵn sàng.
 </details>
 
@@ -513,8 +544,9 @@ C. Amazon Polly
 D. Amazon Forecast
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** Deep Learning AMI (DLAMI) là AMI được tối ưu cho ML/DL, chứa frameworks và drivers.
 </details>
 
@@ -529,8 +561,9 @@ C. Không muốn scale
 D. Cần batch job theo event
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** Scheduled scaling cấu hình trước thời điểm scale dựa vào pattern thời gian.
 </details>
 
@@ -546,8 +579,9 @@ D. Amazon SQS
 E. Amazon Aurora
 
 <details>
-<summary><strong>Answer: B, C</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B, C
 **Giải thích:** AWS Batch và Amazon ECS cả hai đều chạy container; Lambda không phải nền tảng container tổng quát; SQS/Aurora không phải compute.
 </details>
 
@@ -562,8 +596,9 @@ C. Cho phép chạy Lambda
 D. Yêu cầu ít quyền IAM hơn
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** Launch Template hỗ trợ version, tùy biến mới như T2/T3 Unlimited, tagging instance.
 </details>
 
@@ -578,8 +613,9 @@ C. Số lượng AZ
 D. Kích thước AMI
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** Lambda scale theo nhu cầu concurrency, AWS tự động bổ sung instance ảo cho mỗi request mới.
 </details>
 
@@ -594,8 +630,9 @@ C. CloudWatch Logs
 D. Alias
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** Provisioned Concurrency giữ sẵn instance thực thi, giảm cold start cho runtime nặng như Java.
 </details>
 
@@ -610,8 +647,9 @@ C. S3 cross-region replication
 D. S3 inventory report
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** S3 Event Notifications cấu hình để gọi Lambda khi có PUT/POST/DELETE.
 </details>
 
@@ -626,8 +664,9 @@ C. Dịch vụ caching
 D. Chương trình khuyến mãi
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** Spot Fleet cho phép quản lý nhiều Spot instances, đặt mục tiêu công suất, đa dạng hóa loại instance.
 </details>
 
@@ -642,8 +681,9 @@ C. Fargate yêu cầu mua Reserved Instances
 D. EC2 launch type không hỗ trợ scaling
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** ECS EC2 launch type cần quản lý EC2 cluster, Fargate thì serverless trả phí theo tài nguyên container.
 </details>
 
@@ -658,8 +698,9 @@ C. Tối ưu pipeline CI/CD
 D. Phân tích log
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** Elastic Inference cung cấp GPU inference accelerator rẻ hơn so với dùng GPU lớn toàn phần.
 </details>
 
@@ -674,8 +715,9 @@ C. Dịch vụ caching
 D. Dịch vụ messaging
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** Step Functions xây dựng workflow serverless, kết nối Lambda, ECS, DynamoDB, SQS...
 </details>
 
@@ -690,8 +732,9 @@ C. Không thể
 D. Tạo IAM user riêng
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** Có thể cấu hình Lambda chạy trong VPC bằng cách gán subnet & security group, AWS sẽ tạo ENI.
 </details>
 
@@ -706,8 +749,9 @@ C. Tối ưu chi phí Fargate
 D. Tạo AMI
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** Global Accelerator cung cấp địa chỉ IP tĩnh toàn cầu, định tuyến lưu lượng tối ưu đến các endpoint (EC2, ALB).
 </details>
 
@@ -722,8 +766,9 @@ C. AWS Artifact
 D. Amazon WorkMail
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** AWS CLI/SDK cho phép script automation thao tác với EC2 và các dịch vụ khác.
 </details>
 
@@ -738,8 +783,9 @@ C. CloudFormation Stack
 D. IAM Policy
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** EFA cung cấp low latency, high throughput networking, thích hợp HPC và ML.
 </details>
 
@@ -754,8 +800,9 @@ C. Mã hóa EBS
 D. Quản lý AMI
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** AWS Budgets thiết lập ngưỡng chi phí/usage, cảnh báo khi vượt cho compute và dịch vụ khác.
 </details>
 
@@ -770,8 +817,9 @@ C. Khi cần batch jobs dài
 D. Khi cần backup dữ liệu
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** Lambda@Edge chạy function tại edge để xử lý request/response CloudFront với độ trễ thấp.
 </details>
 
@@ -786,8 +834,9 @@ C. Tạo AMI
 D. Quản lý RI
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** SAM mở rộng CloudFormation để định nghĩa và triển khai ứng dụng serverless (Lambda, API Gateway, Step Functions).
 </details>
 
@@ -802,8 +851,9 @@ C. EC2
 D. Step Functions
 
 <details>
-<summary><strong>Answer: C</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** C
 **Giải thích:** Với EC2, khách hàng chịu trách nhiệm quản lý hệ điều hành, cập nhật bảo mật và patches.
 </details>
 
@@ -820,8 +870,9 @@ C. Dùng Lambda với Provisioned Concurrency
 D. Dùng Lightsail
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** AWS Batch với Spot Instances giảm chi phí, job có thể retry nếu bị gián đoạn, đảm bảo hoàn thành theo lịch.
 </details>
 
@@ -836,8 +887,9 @@ C. Partition Placement Group
 D. Không cần placement group
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** Cluster Placement Group đặt instances gần nhau trong cùng AZ, tối ưu low-latency networking cho HPC.
 </details>
 
@@ -852,8 +904,9 @@ C. EC2 Reserved Instances + Lightsail
 D. Lambda + DynamoDB global table
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** EventBridge phối hợp events cho Lambda, CodeDeploy Blue/Green hỗ trợ rollout dần cho dịch vụ container ECS.
 </details>
 
@@ -868,8 +921,9 @@ C. Fargate
 D. Lightsail
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** Dedicated Host cho phép gắn license riêng, đảm bảo compliance với license theo core/cpu.
 </details>
 
@@ -884,8 +938,9 @@ C. 100% Spot
 D. Chỉ dùng Lambda
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** Dùng RI/Savings Plan cho workload cơ bản (steady-state), On-Demand/Spot cho phần biến động.
 </details>
 
@@ -900,8 +955,9 @@ C. Task placement strategy
 D. Capacity Providers
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** Deployment circuit breaker phát hiện triển khai thất bại, dừng và rollback, đảm bảo dịch vụ không gián đoạn lâu.
 </details>
 
@@ -916,8 +972,9 @@ C. Không gắn IAM role
 D. Không cấu hình environment variables
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** Lambda tạo ENI trong subnet để truy cập VPC, concurrency cao có thể dẫn đến hết địa chỉ IP/ENI, gây throttling.
 </details>
 
@@ -932,8 +989,9 @@ C. AWS Config
 D. Trusted Advisor
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** Instance Scheduler hoặc kết hợp EventBridge và SSM Automation giúp start/stop instance theo lịch.
 </details>
 
@@ -948,8 +1006,9 @@ C. Manual scaling
 D. AWS Batch
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** Application Auto Scaling hỗ trợ ECS services, có thể dùng custom metric latency để scale in/out.
 </details>
 
@@ -964,8 +1023,9 @@ C. Lambda
 D. Lightsail
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** Spot Fleet đa dạng hóa loại instance cung cấp compute lớn với chi phí thấp cho workload tạm thời.
 </details>
 
@@ -980,8 +1040,9 @@ C. Amazon Glacier
 D. AWS Backup
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** EFS cung cấp file system dùng chung, throughput cao, phù hợp HPC khi kết hợp với EC2/EKS.
 </details>
 
@@ -996,8 +1057,9 @@ C. Chuyển sang Lightsail
 D. Dùng EBS
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** Provisioned Concurrency giảm cold start, chia nhỏ file để xử lý song song giảm thời gian đọc/ghi trên EFS.
 </details>
 
@@ -1012,8 +1074,9 @@ C. Lambda chỉ tính theo số lần invoke
 D. Fargate miễn phí
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** Lambda tính phí dựa trên số request và thời gian thực thi theo GB-second, Fargate tính theo tài nguyên đã cấu hình và thời gian chạy task.
 </details>
 
@@ -1028,8 +1091,9 @@ C. CloudFormation
 D. AWS Batch
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** AWS Application Migration Service (trước là CloudEndure) tự động hóa rehost VM lên EC2.
 </details>
 
@@ -1044,8 +1108,9 @@ C. EC2 Auto Scaling
 D. Step Functions
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** App Runner/EKS Knative hỗ trợ scale-to-zero cho container, Fargate native scaling không xuống 0 (yêu cầu dịch vụ vẫn duy trì tối thiểu).
 </details>
 
@@ -1060,8 +1125,9 @@ C. AWS Backup
 D. DynamoDB
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** Route 53 latency-based routing + health checks điều phối lưu lượng đến region tốt nhất, failover khi cần.
 </details>
 
@@ -1076,8 +1142,9 @@ C. Dùng IAM Policy
 D. Dùng Systems Manager
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** Tag theo kiến trúc, bật cost allocation tags để theo dõi chi phí riêng biệt trong Cost Explorer.
 </details>
 
@@ -1092,8 +1159,9 @@ C. Lambda
 D. CloudTrail
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** Karpenter/Cluster Autoscaler cho phép mix Spot và On-Demand, tối ưu chi phí và độ tin cậy.
 </details>
 
@@ -1108,8 +1176,9 @@ C. CloudFront + Lightsail
 D. SQS + SNS
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** API Gateway cung cấp auth, Lambda xử lý logic, CloudFront cache, DynamoDB lưu trữ serverless.
 </details>
 
@@ -1124,8 +1193,9 @@ C. Environment variables không mã hóa
 D. S3 public bucket
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** Secrets Manager/Parameter Store cung cấp bảo mật, rotation, tích hợp với Lambda qua IAM.
 </details>
 
@@ -1140,8 +1210,9 @@ C. 100% On-Demand
 D. Lambda
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** Dùng Spot với chiến lược capacity-optimized giảm gián đoạn, fallback On-Demand đảm bảo workload tiếp tục.
 </details>
 
@@ -1156,8 +1227,9 @@ C. Lưu vào environment variable plain text
 D. Dùng CloudWatch Logs
 
 <details>
-<summary><strong>Answer: B</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** B
 **Giải thích:** Secrets Manager hỗ trợ rotation, ECS task role truy cập secrets an toàn qua ARNs.
 </details>
 
@@ -1172,8 +1244,9 @@ C. Step Functions + EC2
 D. Batch + Athena
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** Kinesis ingest data real-time, Lambda xử lý event-driven, DynamoDB lưu trữ nhanh.
 </details>
 
@@ -1188,8 +1261,9 @@ C. Route 53
 D. EventBridge
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** SCP cho phép giới hạn hành động IAM, có thể cấm tạo instance type không được phép.
 </details>
 
@@ -1204,8 +1278,9 @@ C. Lightsail
 D. Batch
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** Provisioned Concurrency/SnapStart giảm cold start, đáp ứng latency rất thấp cho serverless.
 </details>
 
@@ -1220,8 +1295,9 @@ C. Config
 D. Trusted Advisor
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** Sử dụng AWS CLI/API để lấy thông tin placement group, host ID, AZ cho HPC.
 </details>
 
@@ -1236,8 +1312,9 @@ C. Lambda versioning
 D. Lightsail
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** CodeDeploy Blue/Green kết hợp ALB chuyển traffic dần, đảm bảo zero-downtime cho ECS service.
 </details>
 
@@ -1252,8 +1329,9 @@ C. API Gateway WebSocket
 D. Copy dữ liệu sang S3
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** RDS Proxy quản lý pool connection, giảm overhead, đặc biệt với Aurora Serverless v2 chịu tải bursty.
 </details>
 
@@ -1268,8 +1346,9 @@ C. Lambda
 D. Batch
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** Tách thành hai ECS services, mỗi service gắn Capacity Provider riêng (ví dụ batch dùng Spot, service dùng On-Demand) để tối ưu.
 </details>
 
@@ -1284,10 +1363,12 @@ C. Batch
 D. Lightsail
 
 <details>
-<summary><strong>Answer: A</strong></summary>
+<summary><strong>Hiển thị đáp án</strong></summary>
 
+**Đáp án:** A
 **Giải thích:** SageMaker endpoints hỗ trợ multi-region, auto-scaling, tối ưu inference cho container ML.
 </details>
 
 ---
+
 
